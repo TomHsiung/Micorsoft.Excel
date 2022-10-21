@@ -1,0 +1,1 @@
+=IF(OR(C7=3,C7=4,C7=5), "spring", IF(OR(C7=6,C7=7,C7=8,C7=9), "summer", IF(OR(C7=10, C7=11), "autumn", IF(OR(C7=12,C7=1,C7=2), "winter", "NA"))))
